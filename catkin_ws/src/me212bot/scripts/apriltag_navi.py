@@ -51,7 +51,7 @@ class ApriltagNavigator():
         
     def navi_loop(self):
         ##
-        target_pose2d = [0.25, 0, np.pi]
+        target_pose2d = [0.25, 0.4, np.pi/2]
         
         ##
         wv = WheelVelCmd()
